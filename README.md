@@ -35,5 +35,5 @@ the other values are O(n) - string, object, array …
 
 ## References
 
-- **[Master the Coding Interview: Data Structures + Algorithms (ZTM Course in Udemy)]**[https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/]
-- **[JavaScript Algorithms and Data Structures Masterclass (Colt’s Course in Udemy)]**[https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass]
+- **[Master the Coding Interview: Data Structures + Algorithms (ZTM Course in Udemy)][https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/]**
+- **[JavaScript Algorithms and Data Structures Masterclass (Colt’s Course in Udemy)][https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass]**
