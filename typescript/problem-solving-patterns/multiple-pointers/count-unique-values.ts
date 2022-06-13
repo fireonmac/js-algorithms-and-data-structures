@@ -3,7 +3,7 @@
  * There can be negative numbers in the array, but it will always be sorted.
  */
 
-const countUniqueValues = (arr: number[]) => {
+export  const countUniqueValues = (arr: number[]) => {
   let count = 0;
   let prevVal;
 
