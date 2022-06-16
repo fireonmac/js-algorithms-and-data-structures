@@ -35,6 +35,11 @@ the other values are O(n) - string, object, array …
 - Depending on a certain condition, the window either increases or closes (and a new window is created)
 - Very useful for keeping track of a subset of data in an array/string etc.
 
+### Divide and Conquer Pattern
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+- This pattern can tremendously decrease time complexity.
+- The most representative example is the binary search.
+
 ## Data Structures
 
 ### What is a Data Structure?
