@@ -6,24 +6,15 @@
  * Space: O(1)
  */
 
-export const averagePair = (arr: number[], targetAvg: number): boolean => {
+export function averagePair(arr: number[], avg: number) {
   let left = 0;
   let right = arr.length - 1;
-  
-  if (arr.length < 2) {
-    return false;
-  }
 
   while (left < right) {
-    const avg = (arr[left] + arr[right]) / 2;
-
-    if (avg === targetAvg) {
-      return true;
-    } else if (avg < targetAvg) {
-      left++;
-    } else {
-      right--;
-    }
+    const currAvg = (arr[left] + arr[right]) * 0.5;
+    if (currAvg === avg) return true;
+    else if (currAvg < avg) left++;
+    else if (currAvg > avg) right--;
   }
 
   return false;

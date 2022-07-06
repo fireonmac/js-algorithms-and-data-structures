@@ -28,9 +28,7 @@ const areThereDuplicates = (...arr: Array<Letters>) => {
   let next = start + 1;
 
   while (next < arr.length) {
-    if (sorted[start] === sorted[next]) {
-      return true;
-    }
+    if (sorted[start] === sorted[next]) return true;
 
     start++;
     next++;
